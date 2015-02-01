@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+    <!--<style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">-->
+        <!--
+            Customize your theme here.
+            Lollipop specific apps require the "android:" in front of these
+        -->
+        <!-- Main Colour -->
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <!-- Status Bar Colour-->
+        <item name="android:colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="android:colorAccent">@color/accentColor</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

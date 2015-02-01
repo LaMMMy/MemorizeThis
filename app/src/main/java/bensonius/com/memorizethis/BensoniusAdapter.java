@@ -41,7 +41,7 @@ public class BensoniusAdapter extends RecyclerView.Adapter<BensoniusAdapter.MyVi
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onBindViewHolder(MyViewHolder holder, int position)  {
         Information current = listData.get(position);
         holder.title.setText(current.title);
         holder.icon.setImageResource(current.iconId);
